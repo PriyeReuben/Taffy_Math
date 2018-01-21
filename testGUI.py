@@ -1,6 +1,7 @@
 import logic as taffy
 import tkinter as tk
 from tkinter import ttk
+import time
 
 window = tk.Tk()
 
@@ -12,7 +13,7 @@ incorrect_answers = 0
 window.title("T&F-fy Math")
 def setup():
 
-    taf = taffy.Taffy().math(1)
+    taf = taffy.Taffy().math()
 
     expression_label = ttk.Label(window, text=taf[0])
     expression_label.grid(column=1, row=1)
@@ -30,6 +31,10 @@ def setup():
         expression_label.configure(text="")
         if (taf[3]==taf[1]):
             print("Correct")
+            expression_label.configure(foreground="green", text ="correct!")
+            time.sleep(1)
+            print("puppies")
+
         elif(taf[3]==taf[2]):
             print("Wrong")
             print("correct answer is " + str(taf[1]))

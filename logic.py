@@ -4,54 +4,42 @@ class Taffy:
     def __init__(self):
         self.min = 3 # int(input("Minimum Value?"))
         self.max = 12 # int(input("Maximum Value?"))
-        #self.r1 = rand.randint(0, self.max - self.min) + self.min
-        #self.r2 = rand.randint(0 , self.max - self.min) + self.min
         rand.randint
-        self.primes = [5,7,11]
 
 
-    def math(self, sign):
-
-        if sign==1:
-            seed1 = rand.randint(0,len(self.primes)-1)
-            seed2 = rand.randint(0,len(self.primes)-1)
-
-            r1 = rand.randint(0, self.max - self.min) + self.min
-            r2 = rand.randint(0, self.max - self.min) + self.min
+    def math(self):
 
 
-            true_value = r1 * r2  #real value
-            false_value = int(((true_value + self.primes[seed1]) / 2 * 1.8 + self.primes[seed2]))
+        r1 = rand.randint(0, self.max - self.min) + self.min
+        r2 = rand.randint(0, self.max - self.min) + self.min
 
-            given = rand.randint(1,2)
-            if given==1:
-                gValue = true_value
-            elif given==2:
-                gValue = false_value
-            else:
-                print("Something went wrong")
 
-            expression = "{} * {} = {}".format(r1, r2, gValue)
-            print(expression)
-            return(expression,true_value,false_value, gValue)
+        true_value = r1 * r2  #real value
+        false_value = slightly_wrong(r1, r2, true_value)
 
-        elif sign==2:  #division to be fixed later
-            seed1 = rand.randint(1, len(self.primes))
-            seed2 = rand.randint(1, len(self.primes))
+        given = rand.randint(1,2)
+        if given==1:
+            gValue = true_value
+        elif given==2:
+            gValue = false_value
+        else:
+            print("Something went wrong")
 
-            true_value = self.r1 * self.r2  # real value
-            false_value = int(((true_value + self.primes[seed1]) / 2 * 1.8 + self.primes[seed2]))
+        expression = "{} * {} = {}".format(r1, r2, gValue)
+        print(expression)
+        return(expression,true_value,false_value, gValue)
 
-            given = rand.randint(1, 2)
-            if given == 1:
-                gValue = true_value
-            elif given == 2:
-                gValue = false_value
-            else:
-                print("Something went wrong")
+def slightly_wrong(self, r1, r2, true):  # r1, r2, true_
+    approx1 = r1 * rand.uniform(1.01, 1.03)
+    approx2 = r2 * rand.uniform(1.01, 1.03)
+    false_value = int(approx1 * approx2)
 
-            expression = self.r1 + " / " + self.r2 + " =\n " + gValue;
-            print(expression)
+    if false_value == true:
+        false_value = false_value + rand.randint(1, 4)
+        print("Real {},{},{} Fake {},{},{}".format(r1, r2, true, approx1, approx2, false_value))
+        return false_value
+    else:
+        return false_value
 
 def workhorse():
     t = Taffy()

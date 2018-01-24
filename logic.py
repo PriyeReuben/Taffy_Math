@@ -26,17 +26,17 @@ class Taffy:
             print("Something went wrong")
 
         expression = "{} * {} = {}".format(r1, r2, gValue)
-        print(expression)
+        #print(expression)
         return(expression,true_value,false_value, gValue)
 
-def slightly_wrong(self, r1, r2, true):  # r1, r2, true_
+def slightly_wrong(r1, r2, true):  # r1, r2, true_
     approx1 = r1 * rand.uniform(1.01, 1.03)
     approx2 = r2 * rand.uniform(1.01, 1.03)
     false_value = int(approx1 * approx2)
 
     if false_value == true:
         false_value = false_value + rand.randint(1, 4)
-        print("Real {},{},{} Fake {},{},{}".format(r1, r2, true, approx1, approx2, false_value))
+        #print("Real {},{},{} Fake {},{},{}".format(r1, r2, true, approx1, approx2, false_value))
         return false_value
     else:
         return false_value

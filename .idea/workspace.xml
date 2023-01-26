@@ -11,16 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e79c7dff-f3cf-4c48-a67c-791f2d455240" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Taffy-Math/Taffy_GUI.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Taffy-Math/Taffy_GUI_Elements.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Taffy-Math/logic2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Taffy Math.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Taffy Math.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Taffy-Math" beforeDir="false" afterPath="$PROJECT_DIR$/Taffy-Math" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logic.py" beforeDir="false" afterPath="$PROJECT_DIR$/logic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Taffy-Math/logic2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Taffy-Math/logic2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +29,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Taffy-Math" />
   </component>
   <component name="ProjectId" id="1zkB8TAqCYloMexzy2NjAvjVZ8L" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -47,7 +38,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Broken_Records" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Python.Taffy_GUI">
@@ -153,6 +144,14 @@
       <option name="presentableId" value="Default" />
       <updated>1515794420849</updated>
     </task>
+    <task id="LOCAL-00001" summary="redoing the logic and GUI">
+      <created>1674697962731</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674697962731</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -167,27 +166,31 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="redoing the logic and GUI" />
+    <option name="LAST_COMMIT_MESSAGE" value="redoing the logic and GUI" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="620" y="260" key="FileChooserDialogImpl" timestamp="1674453735473">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="620" y="260" key="FileChooserDialogImpl/0.0.1680.1010/1680.0.1680.1010@0.0.1680.1010" timestamp="1674453735473" />
-    <state width="1659" height="264" key="GridCell.Tab.0.bottom" timestamp="1674453739484">
+    <state width="1659" height="264" key="GridCell.Tab.0.bottom" timestamp="1674698019347">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="264" key="GridCell.Tab.0.bottom/0.0.1680.1010/1680.0.1680.1010@0.0.1680.1010" timestamp="1674453739484" />
-    <state width="1659" height="264" key="GridCell.Tab.0.center" timestamp="1674453739484">
+    <state width="1659" height="264" key="GridCell.Tab.0.bottom/0.0.1680.1010/1680.0.1680.1010@0.0.1680.1010" timestamp="1674698019347" />
+    <state width="1659" height="264" key="GridCell.Tab.0.center" timestamp="1674698019347">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="264" key="GridCell.Tab.0.center/0.0.1680.1010/1680.0.1680.1010@0.0.1680.1010" timestamp="1674453739484" />
-    <state width="1659" height="264" key="GridCell.Tab.0.left" timestamp="1674453739484">
+    <state width="1659" height="264" key="GridCell.Tab.0.center/0.0.1680.1010/1680.0.1680.1010@0.0.1680.1010" timestamp="1674698019347" />
+    <state width="1659" height="264" key="GridCell.Tab.0.left" timestamp="1674698019347">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="264" key="GridCell.Tab.0.left/0.0.1680.1010/1680.0.1680.1010@0.0.1680.1010" timestamp="1674453739484" />
-    <state width="1659" height="264" key="GridCell.Tab.0.right" timestamp="1674453739484">
+    <state width="1659" height="264" key="GridCell.Tab.0.left/0.0.1680.1010/1680.0.1680.1010@0.0.1680.1010" timestamp="1674698019347" />
+    <state width="1659" height="264" key="GridCell.Tab.0.right" timestamp="1674698019347">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1659" height="264" key="GridCell.Tab.0.right/0.0.1680.1010/1680.0.1680.1010@0.0.1680.1010" timestamp="1674453739484" />
+    <state width="1659" height="264" key="GridCell.Tab.0.right/0.0.1680.1010/1680.0.1680.1010@0.0.1680.1010" timestamp="1674698019347" />
     <state width="1659" height="326" key="GridCell.Tab.1.bottom" timestamp="1674453739475">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>

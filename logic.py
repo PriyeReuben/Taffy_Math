@@ -3,7 +3,7 @@ import random as rand
 class Taffy:
     def __init__(self):
         self.min = 3 # int(input("Minimum Value?"))
-        self.max = 12 # int(input("Maximum Value?"))
+        self.max = 16 # int(input("Maximum Value?"))
         rand.randint
 
 
